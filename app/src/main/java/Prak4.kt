@@ -47,3 +47,5 @@ fun Praktikum4(modifier: Modifier){
                 .clip(CircleShape)
         )
 
+        Spacer(modifier = Modifier.height(16.dp))
+
