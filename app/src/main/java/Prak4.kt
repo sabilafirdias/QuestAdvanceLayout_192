@@ -90,3 +90,5 @@ fun Praktikum4(modifier: Modifier){
         Spacer(modifier = Modifier.height(5.dp))
         MenuItem(title = "Pengaturan", iconRes = R.drawable.setting)
 
+        Spacer(modifier = Modifier.height(45.dp))
+
