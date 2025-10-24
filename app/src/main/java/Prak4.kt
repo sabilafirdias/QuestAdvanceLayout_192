@@ -31,5 +31,9 @@ import androidx.compose.ui.unit.sp
 import com.example.myapplication.R
 
 @Composable
-fun Praktikum4(modifier: Modifier) {
-}
+fun Praktikum4(modifier: Modifier){
+    Column(
+        modifier = Modifier
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){}
