@@ -67,3 +67,9 @@ fun Praktikum4(modifier: Modifier){
             fontWeight = FontWeight.Bold,
             color = Color.Black
         )
+        Text(
+            text = stringResource(R.string.username),
+            fontSize = 16.sp,
+            color = Color.DarkGray
+        )
+
