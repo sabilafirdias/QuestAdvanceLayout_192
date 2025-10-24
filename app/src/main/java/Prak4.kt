@@ -122,5 +122,16 @@ fun SocialIcon(iconRes: Int) {
 }
 
 @Composable
-fun MenuItem(title: String, iconRes: Int) {
-}
+fun MenuItem(title: String, iconRes: Int){
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(100.dp)
+            .padding(all = 12.dp)
+            .clickable { },
+        shape = RoundedCornerShape(16.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+        colors = CardDefaults.cardColors(
+                containerColor = Color.LightGray
+        )
+    ) {}
