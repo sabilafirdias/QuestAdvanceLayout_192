@@ -84,3 +84,9 @@ fun Praktikum4(modifier: Modifier){
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        MenuItem(title = "Privacy", iconRes = R.drawable.privacy)
+        Spacer(modifier = Modifier.height(5.dp))
+        MenuItem(title = "Riwayat Transaksi", iconRes = R.drawable.history)
+        Spacer(modifier = Modifier.height(5.dp))
+        MenuItem(title = "Pengaturan", iconRes = R.drawable.setting)
+
