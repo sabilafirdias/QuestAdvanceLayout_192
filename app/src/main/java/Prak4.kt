@@ -49,3 +49,8 @@ fun Praktikum4(modifier: Modifier){
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+        }
