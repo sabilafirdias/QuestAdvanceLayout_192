@@ -92,3 +92,11 @@ fun Praktikum4(modifier: Modifier){
 
         Spacer(modifier = Modifier.height(45.dp))
 
+        Text(
+            text = stringResource(R.string.copyr),
+            fontSize = 12.sp,
+            color = Color.DarkGray
+        )
+    }
+}
+
