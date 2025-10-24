@@ -59,3 +59,11 @@ fun Praktikum4(modifier: Modifier){
             SocialIcon(R.drawable.linkedin)
         }
 
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(
+            text = stringResource(R.string.name),
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
