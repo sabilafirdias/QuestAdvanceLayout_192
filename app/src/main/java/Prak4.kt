@@ -121,3 +121,6 @@ fun SocialIcon(iconRes: Int) {
     }
 }
 
+@Composable
+fun MenuItem(title: String, iconRes: Int) {
+}
