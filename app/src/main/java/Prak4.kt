@@ -102,4 +102,11 @@ fun Praktikum4(modifier: Modifier){
 
 @Composable
 fun SocialIcon(iconRes: Int) {
-}
+    Box(
+        modifier = Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .clickable { }
+            .padding(8.dp),
+        contentAlignment = Alignment.Center
+    )
