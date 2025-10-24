@@ -100,3 +100,6 @@ fun Praktikum4(modifier: Modifier){
     }
 }
 
+@Composable
+fun SocialIcon(iconRes: Int) {
+}
