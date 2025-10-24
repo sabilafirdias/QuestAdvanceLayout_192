@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import AktivitasPertama
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -20,8 +21,18 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+
+
+
+
+
+
+
+
+
+
+
+                    AktivitasPertama(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

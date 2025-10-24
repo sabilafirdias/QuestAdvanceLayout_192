@@ -1,4 +1,3 @@
-import android.text.Layout
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -17,7 +16,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ModifierLocalBeyondBoundsLayout
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
@@ -25,7 +23,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.myapplication.R
-import java.nio.file.WatchEvent
 
 
 @Composable
@@ -43,7 +40,7 @@ fun AktivitasPertama(modifier: Modifier){
         )
         Text(
             text = stringResource(id = R.string.univ),
-            fontSize = 22.sp
+            fontSize = 18.sp
         )
         Spacer(modifier = Modifier.height(height = 25.dp))
         Card(
