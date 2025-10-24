@@ -134,4 +134,11 @@ fun MenuItem(title: String, iconRes: Int){
         colors = CardDefaults.cardColors(
                 containerColor = Color.LightGray
         )
-    ) {}
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {}
