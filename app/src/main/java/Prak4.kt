@@ -141,4 +141,26 @@ fun MenuItem(title: String, iconRes: Int){
                 .padding(horizontal = 20.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
-        ) {}
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Image(
+                    painter = painterResource(id = iconRes),
+                    contentDescription = title,
+                    modifier = Modifier.size(26.dp)
+                )
+                Spacer(modifier = Modifier.width(12.dp))
+                Text(
+                    text = title,
+                    color = Color.DarkGray,
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+            Image(
+                painter = painterResource(id = R.drawable.play),
+                contentDescription = "Next",
+                modifier = Modifier.size(20.dp)
+            )
+        }
+    }
+}
