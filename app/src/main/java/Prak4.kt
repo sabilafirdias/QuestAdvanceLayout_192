@@ -52,5 +52,10 @@ fun Praktikum4(modifier: Modifier){
         Row(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalAlignment = Alignment.CenterVertically
-        ) {
+        ){
+            SocialIcon(R.drawable.facebook)
+            SocialIcon(R.drawable.google)
+            SocialIcon(R.drawable.twitter)
+            SocialIcon(R.drawable.linkedin)
         }
+
