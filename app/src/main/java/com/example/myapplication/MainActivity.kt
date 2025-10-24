@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import AktivitasPertama
+import Praktikum4
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -21,18 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-
-
-
-
-
-
-
-
-
-
-                    AktivitasPertama(
+                    Praktikum4(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
