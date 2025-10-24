@@ -109,4 +109,15 @@ fun SocialIcon(iconRes: Int) {
             .clickable { }
             .padding(8.dp),
         contentAlignment = Alignment.Center
-    )
+    ) {
+        Image(
+            painter = painterResource(id = iconRes),
+            contentDescription = "Social Icon",
+            contentScale = ContentScale.Fit,
+            modifier = Modifier
+                .clip(CircleShape)
+                .fillMaxSize()
+        )
+    }
+}
+
